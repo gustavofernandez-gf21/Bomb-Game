@@ -1,0 +1,76 @@
+body {
+    margin: 60px auto;
+    width: 70p%;
+    max-width: 950px;
+    background-color: #333333;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    color: #248f24;
+}
+
+p,
+button,
+input {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.inputs {
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Special Elite', cursive;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.comando {
+    font-family: 'Special Elite', cursive;
+    color: aliceblue;
+}
+
+#puntaje {
+    font-family: 'Special Elite', cursive;
+    color: aliceblue;
+}
+
+#intentos {
+    font-family: 'Special Elite', cursive;
+    color: aliceblue;
+}
+
+#gameboard {
+    position: relative;
+    margin: 0 auto 2em auto;
+    width: 500px;
+    height: 500px;
+}
+
+#gameboard div {
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    background: rgb(39, 154, 30);
+    background: -moz-radial-gradient(circle, rgba(39, 154, 30, 0.896796218487395) 0%, rgba(27, 65, 9, 0.9444152661064426) 49%, rgba(54, 55, 57, 0.8295693277310925) 100%);
+    background: -webkit-radial-gradient(circle, rgba(39, 154, 30, 0.896796218487395) 0%, rgba(27, 65, 9, 0.9444152661064426) 49%, rgba(54, 55, 57, 0.8295693277310925) 100%);
+    background: radial-gradient(circle, rgba(39, 154, 30, 0.896796218487395) 0%, rgba(27, 65, 9, 0.9444152661064426) 49%, rgba(54, 55, 57, 0.8295693277310925) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#279a1e", endColorstr="#363739", GradientType=1);
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+
+}
+
+#tablero {
+    display: block;
+    float: right;
+}
+
+#controles {
+    display: block;
+    float: left;
+}
